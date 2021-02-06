@@ -1,0 +1,35 @@
+:root {
+    --Very-Light-Grayish-Blue: hsl(240, 78%, 98%);
+    --Light-Grayish-Blue: hsl(234, 14%, 74%);
+    --Grayish-Blue: hsl(233, 13%, 49%);
+    --Dark-Grayish-Blue: hsl(232, 13%, 33%);
+}
+
+// BREAKPOINT
+$bp-large: 70em;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 50%;
+
+    @media only screen and (min-width: $bp-large) {
+        font-size: 62.5%;
+    }
+}
+
+body {
+    background-color: var(--Very-Light-Grayish-Blue);
+    background-image: url(./../../assets/bg-bottom.svg);
+    background-position: -2% -250%;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    // line-height: 1.6;
+}

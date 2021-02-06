@@ -1,0 +1,73 @@
+.pricing__list {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+
+    &--item:not(:last-child) {
+        margin-bottom: .3rem;
+    }
+
+    &--item:last-child {
+        border-bottom: 1px solid #e1f1ff;
+    }
+    &--item {
+        padding: 1.5rem 0;
+        border-top: 1px solid #e1f1ff;
+    }
+
+    
+}
+
+.header {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.card__plan {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 1.2rem 3rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    text-transform: uppercase;
+
+    &--white {
+        background-color: #fff;
+        color: #696fdd;
+    }
+
+    &--blue {
+        background: linear-gradient(#a3a8f0, #696fdd);
+        color: #fff;
+    }
+}
+
+.btn__container {
+    text-align: center;
+    margin-top: 4.5rem;
+}
+
+.mb-2 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-4 {
+    margin-bottom: 3rem;
+}
+
+.mx-5 {
+    margin: 0 5rem;
+}
+
+.pricing__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
