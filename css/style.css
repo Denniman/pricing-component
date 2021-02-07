@@ -40,10 +40,11 @@ body {
     border-radius: 1rem;
     padding: 3rem 3rem;
     height: 40rem;
-    margin-bottom: 3rem; }
+    margin-bottom: 3rem;
+    box-shadow: -5px 5px 15px var(--Light-Grayish-Blue); }
     @media only screen and (min-width: 70em) {
       .container .card {
-        box-shadow: -5px 5px 15px var(--Light-Grayish-Blue);
+        padding: 3rem 2rem;
         width: 30%; } }
     .container .card--white {
       background-color: #fff;
@@ -79,6 +80,9 @@ body {
   font-size: 1.5rem;
   text-align: center;
   font-weight: 700; }
+  @media only screen and (min-width: 70em) {
+    .pricing__list {
+      padding: 0 1.2rem; } }
   .pricing__list--item:not(:last-child) {
     margin-bottom: .3rem; }
   .pricing__list--item:last-child {
@@ -103,7 +107,7 @@ body {
   text-transform: uppercase; }
   @media only screen and (min-width: 70em) {
     .btn {
-      padding: 1.2rem 7rem; } }
+      padding: 1.2rem 9rem; } }
   .btn--white {
     background-color: #fff;
     color: #696fdd; }

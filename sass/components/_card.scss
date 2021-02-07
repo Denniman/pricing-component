@@ -16,9 +16,10 @@
         padding: 3rem 3rem;
         height: 40rem;
         margin-bottom: 3rem;
+        box-shadow: -5px 5px 15px var(--Light-Grayish-Blue);
 
         @media only screen and (min-width: $bp-large) {
-            box-shadow: -5px 5px 15px var(--Light-Grayish-Blue);
+            padding: 3rem 2rem;
             width: 30%;
         }
 
