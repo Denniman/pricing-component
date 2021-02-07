@@ -86,7 +86,7 @@ body {
 
 .btn {
   text-decoration: none;
-  padding: 1.2rem 3rem;
+  padding: 1.2rem 10rem;
   font-size: 1.5rem;
   border-radius: .5rem;
   text-transform: uppercase;
@@ -94,6 +94,9 @@ body {
   @media only screen and (min-width: 70em) {
     .btn {
       padding: 1.2rem 9rem; } }
+  @media only screen and (min-width: 20em) {
+    .btn {
+      padding: 1.2rem 7rem; } }
   .btn--white {
     background-color: #fff;
     color: #696fdd; }
