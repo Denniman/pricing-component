@@ -68,12 +68,6 @@
     margin-bottom: 3rem;
 }
 
-.ml-3 {
-    @media only screen and (min-width: $bp-large) {
-        margin-left: -3rem;
-    }
-}
-
 .mx-5 {
     margin: 0 5rem;
 
@@ -88,4 +82,10 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

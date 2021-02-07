@@ -125,10 +125,6 @@ body {
 .mb-4 {
   margin-bottom: 3rem; }
 
-@media only screen and (min-width: 70em) {
-  .ml-3 {
-    margin-left: -3rem; } }
-
 .mx-5 {
   margin: 0 5rem; }
   @media only screen and (min-width: 70em) {
@@ -141,3 +137,8 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 5rem; }
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
