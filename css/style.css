@@ -66,7 +66,7 @@ body {
 
 .card__title {
   font-size: 2rem;
-  font-weight: 700; }
+  font-weight: 600; }
 
 .card__price {
   font-size: 4rem; }
@@ -124,6 +124,10 @@ body {
 
 .mb-4 {
   margin-bottom: 3rem; }
+
+@media only screen and (min-width: 70em) {
+  .ml-3 {
+    margin-left: -3rem; } }
 
 .mx-5 {
   margin: 0 5rem; }
