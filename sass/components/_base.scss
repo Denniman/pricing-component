@@ -29,9 +29,11 @@ html {
 
 body {
     background-color: var(--Very-Light-Grayish-Blue);
-    background-image: url(./../../assets/bg-bottom.svg);
-    background-position: -2% -250%;
+    background-image: url(../../assets/bg-bottom.svg), url(../../assets/bg-top.svg);
+    background-position: bottom -20px left -10px, top -20px right -10px;
+    @media only screen and (min-width: $bp-large) {
+        background-position: bottom -20px left -10px, top -20px right -10px;
+    }
     background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
-    // line-height: 1.6;
 }
