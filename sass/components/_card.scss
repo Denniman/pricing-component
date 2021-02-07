@@ -18,7 +18,8 @@
         margin-bottom: 3rem;
 
         @media only screen and (min-width: $bp-large) {
-            width: 40%;
+            box-shadow: -5px 5px 15px var(--Light-Grayish-Blue);
+            width: 30%;
         }
 
         &--white {
@@ -36,7 +37,7 @@
             color: #fff;
 
             @media only screen and (min-width: $bp-large) {
-                height: 73vh;
+                height: 43rem;
             }
         }
     }

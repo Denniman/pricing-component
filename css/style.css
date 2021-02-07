@@ -43,7 +43,8 @@ body {
     margin-bottom: 3rem; }
     @media only screen and (min-width: 70em) {
       .container .card {
-        width: 40%; } }
+        box-shadow: -5px 5px 15px var(--Light-Grayish-Blue);
+        width: 30%; } }
     .container .card--white {
       background-color: #fff;
       color: var(--Grayish-Blue); }
@@ -56,7 +57,7 @@ body {
       color: #fff; }
       @media only screen and (min-width: 70em) {
         .container .card--blue {
-          height: 73vh; } }
+          height: 43rem; } }
 
 .heading--title {
   font-size: 2.5rem;
@@ -100,6 +101,9 @@ body {
   font-size: 1.5rem;
   border-radius: .5rem;
   text-transform: uppercase; }
+  @media only screen and (min-width: 70em) {
+    .btn {
+      padding: 1.2rem 7rem; } }
   .btn--white {
     background-color: #fff;
     color: #696fdd; }
