@@ -5,6 +5,7 @@ const masterPrice = document.getElementById('master-price')
 
 
 toggleBtn.addEventListener('change', (e) => {
+   
  if(e.target.checked) {
     basicPrice.textContent = `$${19.99}`
     profPrice.textContent = `$${24.99}`
