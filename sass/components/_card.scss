@@ -20,7 +20,7 @@
 
         @media only screen and (min-width: $bp-large) {
             padding: 3rem 2rem;
-            width: 30%;
+            width: 27%;
         }
 
         &--white {
@@ -34,7 +34,7 @@
         }
 
         &--blue {
-            background-color: #696fdd;
+            background: linear-gradient(#a3a8f0, #696fdd);
             color: #fff;
 
             @media only screen and (min-width: $bp-large) {

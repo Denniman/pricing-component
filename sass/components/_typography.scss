@@ -10,6 +10,10 @@
 
 .card__price {
     font-size: 4rem;
+
+    &--dark {
+        color: var(--Dark-Grayish-Blue);
+    }
 }
 
 .heading--tertiary {

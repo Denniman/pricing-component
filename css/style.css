@@ -48,7 +48,7 @@ body {
     @media only screen and (min-width: 70em) {
       .container .card {
         padding: 3rem 2rem;
-        width: 30%; } }
+        width: 27%; } }
     .container .card--white {
       background-color: #fff;
       color: var(--Grayish-Blue); }
@@ -57,7 +57,7 @@ body {
           border-top-left-radius: 1rem;
           border-bottom-left-radius: 1rem; } }
     .container .card--blue {
-      background-color: #696fdd;
+      background: linear-gradient(#a3a8f0, #696fdd);
       color: #fff; }
       @media only screen and (min-width: 70em) {
         .container .card--blue {
@@ -74,6 +74,8 @@ body {
 
 .card__price {
   font-size: 4rem; }
+  .card__price--dark {
+    color: var(--Dark-Grayish-Blue); }
 
 .heading--tertiary {
   font-size: 1.5rem;
@@ -82,6 +84,9 @@ body {
 .header {
   text-align: center;
   margin-top: 2rem; }
+  @media only screen and (min-width: 70em) {
+    .header {
+      margin-bottom: .3rem; } }
 
 .card__plan {
   text-align: center;
