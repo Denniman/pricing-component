@@ -65,7 +65,7 @@ body {
           padding: 5.3rem 2.5rem; } }
 
 .heading--title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: var(--Grayish-Blue); }
 
 .card__title {
@@ -79,6 +79,7 @@ body {
 
 .heading--tertiary {
   font-size: 1.5rem;
+  font-weight: 400;
   color: var(--Grayish-Blue); }
 
 .header {
@@ -86,7 +87,7 @@ body {
   margin-top: 2rem; }
   @media only screen and (min-width: 70em) {
     .header {
-      margin-top: 7rem; } }
+      margin-top: 9rem; } }
 
 .card__plan {
   text-align: center;
@@ -134,7 +135,7 @@ body {
   background: linear-gradient(#a3a8f0, #696fdd); }
   @media only screen and (min-width: 70em) {
     .label {
-      width: 4.2%;
+      width: 4%;
       height: 3rem; } }
 
 .label::after {
